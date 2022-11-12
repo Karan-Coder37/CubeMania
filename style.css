@@ -1,0 +1,81 @@
+h1 {
+    color: red;
+    font-size: 3em;
+    font-family: Cursive;
+    font-style:normal;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+    body {
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif, arial;
+    line-height: 1.5em;
+}
+.note {
+    background-color: lawngreen;
+    text-align: center;
+}
+#intro {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 2em;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+#heading1 {
+    color: red;
+    text-decoration: underline;
+    text-align:center;
+}
+table {
+    background-color: black;
+}
+#red {
+    background-color: red;
+}
+#purple {
+    background-color: purple;
+}
+tr {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+#italic {
+    font-style: italic;
+}
+#bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+img {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+#logo {
+    height: 85px;
+    width: 85px;
+}
+#nextstep {
+    text-align: center;
+    font-size: 30px;
+
+}
+#left {
+    text-align: left;
+}

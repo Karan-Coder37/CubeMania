@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=UTF-8>
+    <meta name="author" content="Karan Vohra">
+    <meta name="description" content="Rubik's Cube">
+    <meta name="description" content="3x3 Cube">
+    <meta name="description" content="solving a 3x3">
+    <meta name="description" content="solving a Rubik's Cube">
+    <link rel="stylesheet" href="style.css">
+<title> CubeMania </title>
+<link rel="icon" href="Logo 1.png">
+</head>
+<body id="italic">
+    <article><h2>BONUS!</h2>
+        <hr size=4 color=red>
+        Want to get faster and master that puzzle?<br>
+         Just fill out the form below and enroll yourself for the course.<br> This course will include advanced tricks and tips and is asolutely <span id="bold"><span class="underline">free of cost</span></span>.<br>
+         <form action="Thx.html" method="POST">
+             <fieldset>
+                 <legend> What are you waiting for? Fill out the form below and enroll yourself in.</legend>
+                 <label for="Course"> Course:</label>
+                 <select name="Course:" id="Course" required>
+                     <option value="Beginner">Beginner</option>
+                     <option value="Intermediate">Intermediate</option>
+                     <option value="Advanced">Advanced</option>
+                 </select><br>
+                <label for="Email ID">Email ID:</label>
+                 <input id="Email ID" type="email" name="Email ID" placeholder="Email ID" pattern="[a-zA-Z.]{3,}[@]{1,1}[a-zA-Z]{3,}[.]{1,1}[a-zA-Z]{2,3}" title="Kindly enter in a valid email adress: abc@example.com" autofocus required><br>
+                <label for="Username"> Username: </label>
+                 <input id="Username" type="text" name="Username" placeholder="Username" required><br>
+                 <label for="Password">Password:</label>
+                <input id="Password" type="password" name="Password" placeholder="Password" required><br>
+                <label for="Phone no.">Telephone no.:</label>
+                <input type="tel" name="Tel. no." id="Phone no." placeholder="Phone no." required pattern="[0-9]{10}" title="Kindly enter in a valid telephone no."><br>
+                <label for="Date">Date of enrolling:</label>
+                <input type="Date" name="Date of enrolling" id="Date of enrolling" placeholder="Date of enrolling" min="2022-03-05" max="2022-31-12" required><br>
+                <label for="T&C">I accept all <a href="T&C.html" target="_blank" title="Link to the Terms and Conditions document">Terms and Conditions.</a></label>
+                <input type="checkbox" id="T&C" name="Terms and Condition" value="yes" required checked><br>
+                <input type="reset" value="Clear the Form" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <input id="Submit the form" type="submit" value="Enroll">
+            </fieldset>
+         </form>
+        </article>
+        <hr size=4 color=red>
+        <div class="note">Note: The Course is open only for the entirity of 2022.</div><br>
+        <div id="nextstep"><a href="Index.html" title="Home page">Go back to the home page!</a></div>
+    
+</body>
+</html>
